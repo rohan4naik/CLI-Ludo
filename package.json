@@ -1,0 +1,41 @@
+{
+  "name": "terminal-ludo",
+  "version": "1.0.0",
+  "description": "Classic Ludo board game for your terminal. Offline, zero dependencies, play against AI or hotseat with friends.",
+  "keywords": [
+    "ludo",
+    "game",
+    "board-game",
+    "terminal",
+    "cli",
+    "tui",
+    "offline",
+    "ascii",
+    "dice"
+  ],
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "bin": {
+    "ludo": "bin/ludo.js",
+    "terminal-ludo": "bin/ludo.js"
+  },
+  "main": "src/game.js",
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node bin/ludo.js",
+    "test": "node test/game.test.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
