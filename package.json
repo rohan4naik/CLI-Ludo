@@ -14,7 +14,7 @@
     "dice"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "rohan4naik",
   "type": "commonjs",
   "bin": {
     "ludo": "bin/ludo.js",
@@ -36,6 +36,10 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/rohan4naik/CLI-Ludo.git"
+  },
+  "homepage": "https://github.com/rohan4naik/CLI-Ludo#readme",
+  "bugs": {
+    "url": "https://github.com/rohan4naik/CLI-Ludo/issues"
   }
 }
